@@ -1,4 +1,3 @@
-Certainly! Here are some examples of the application of images, image maps, and color in HTML5:
 
 1. Images:
    - Website header: You can use an image as the header of a website to display a logo or a visually appealing banner.
