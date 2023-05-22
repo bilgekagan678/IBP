@@ -1,6 +1,0 @@
-HW1
-• 1. Link to another site, an anchor, a page on the same site.
-• 2. Link that dials a number, runs JavaScript, runs email client
-• 3. Open the link in a new tab/window
-• Try the tasks above. JavaScript is new to you, so please do your
-research ☺.
