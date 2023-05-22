@@ -1,0 +1,55 @@
+HW3 (Input Types)
+1. Use all input types in HTML5.
+Hidden, Tel, Email, Number, Range, Search, Image, Week, Url,
+DateTime-Local, Month, Time
+2. Explore the concept of Meta Information (author, description,
+generator, keywords) in HTML5 and use it in practice.
+3.Give examples of the application of these input types.
+
+(1 and 2 is the html file)
+
+3)
+
+1. Hidden Input: Values not meant to be visible to the user are frequently stored using hidden inputs. 
+They can be used to process forms or transmit data across pages.
+
+2. Telephone Input: Phone numbers are gathered through telephone inputs. 
+They may be used in registration forms, contact forms, and any other situation where entering a phone number is necessary.
+
+3. Email Input: Email addresses are gathered through email inputs. 
+They are frequently utilized in contact, newsletter, and registration forms.
+
+4. Number Input: Users can enter numerical quantities using number inputs. 
+They are helpful in categories like age, amount, or ratings that call for numerical input.
+
+5. Range Input: Users can choose a value from a specific range using a slider control provided by range inputs. 
+When a range of values must be chosen, such as when setting a volume level or choosing a pricing range, they are helpful.
+
+6. Search Input: Users' search queries are gathered through search inputs. 
+On websites and apps, they are frequently utilized in search fields and bars.
+
+7. Image Input: Images may be uploaded or chosen from a file browser using image inputs. 
+In forms where users must post profile photographs, commercial images, or any other situation requiring image uploads, 
+they are frequently utilized.
+
+8. Week Input: Users can choose a certain week and year using week inputs. 
+They are helpful for jobs that call for planning or scheduling on a weekly basis.
+
+9. URL Input: Website or webpage URLs are collected via URL inputs. 
+They are frequently utilized in forms where users must enter their website URL or external resource links.
+
+10. Datetime-Local Input: Users can choose a specific date and time, as well as the date and time component, 
+using DateTime-local inputs. They are helpful for tasks like event planning 
+or appointment scheduling that call for a precise date and time input.
+
+11. Month Input: Users can choose a certain month and year using month inputs. 
+They are frequently used in forms that ask for options based on months, such as choosing a birth month or an expiry month.
+
+12. Time Input: Time inputs let users choose a certain hour of the day. 
+They are in handy for activities that call for input dependent on time, such as creating reminders or making appointments.
+
+
+
+
+
+
