@@ -1,0 +1,5 @@
+HW4
+• First, create a form. Have inputs and button. Then implement it with
+Form Action using Get and Post methods with different target
+attributes.
+• Addition HW: Implement a simple canvas application in HTML5.
