@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HW2 (Images and Image Maps)</title>
+</head>
+<body>
+  <h1>HW2 (Images and Image Maps)</h1>
+  <p><em>Remember: You have an assignment to work on the contents of Images, Image Maps, and Color in HTML5. Give examples of the application of these topics.</em></p>
+
+  <h2>1. Images:</h2>
+  <ul>
+    <li>
+      Website header: You can use an image as the header of a website to display a logo or a visually appealing banner.
+      <pre><code>&lt;img src="<span style="color: #008000;">header-image.jpg</span>" alt="<span style="color: #0000FF;">Website Header</span>"&gt;</code></pre>
+      <img src="header-image.jpg" alt="Website Header">
+    </li>
+    <li>
+      Photo gallery: You can create a photo gallery by displaying a series of images in a grid or a slideshow format.
+      <pre><code>&lt;img src="<span style="color: #008000;">photo1.jpg</span>" alt="<span style="color: #0000FF;">Photo 1</span>"&gt;</code></pre>
+      <pre><code>&lt;img src="<span style="color: #008000;">photo2.jpg</span>" alt="<span style="color: #0000FF;">Photo 2</span>"&gt;</code></pre>
+      <img src="photo1.jpg" alt="Photo 1" width="300" height="200">
+      <img src="photo2.jpg" alt="Photo 2" width="200" height="300">
+    </li>
+    <li>
+      Image as a link: You can make an image clickable and turn it into a link to another webpage or resource.
+      <pre><code>&lt;a href="<span style="color: #008000;">destination.html</span>"&gt;</code></pre>
+      <pre><code>  &lt;img src="<span style="color: #008000;">image.jpg</span>" alt="<span style="color: #0000FF;">Click Me</span>"&gt;</code></pre>
+      <pre><code>&lt;/a&gt;</code></pre>
+      <a href="destination.html">
+        <img src="image.jpg" alt="Click Me" width="300" height="200">
+      </a>
+    </li>
+  </ul>
+
+  <h2>2. Image Maps:</h2>
+  <ul>
+    <li>
+      Interactive map: You can create an image map to define clickable regions on an image, such as a map, where each region corresponds to a specific location or action.
+      <pre><code>&lt;img src="<span style="color: #008000;">world-map.jpg</span>" alt="<span style="color: #0000FF;">World Map</span>" usemap="#<span style="color: #800080;">map</span>"&gt;</code></pre>
+      <pre><code>&lt;map name="<span style="color: #800080;">map</span>"&gt;</code></pre>
+      <pre><code>  &lt;area shape="<span style="color: #008000;">rect</span>" coords="<span style="color: #008000;">0,0,100,100</span>" href="<span style="color: #008000;">north-america.html</span>" alt="<span style="color: #0000FF;">North America</span>"&gt;</code></pre>
+      <pre><code>  &lt;area shape="<span style="color: #008000;">rect</span>" coords="<span style="color: #008000;">100,0,200,100</span>" href="<span style="color: #008000;">europe.html</span>" alt="<span style="color: #0000FF;">Europe</span>"&gt;</code></pre>
+      <pre><code>&lt;/map&gt;</code></pre>
+      <img src="world-map.jpg" alt="World Map" usemap="#map" width="512" height="256">
+      <map name="map">
+        <area shape="rect" coords="50,25,200,150" href="north-america.html" alt="North America">
+        <area shape="rect" coords="300,50,200,300" href="europe.html" alt="Europe">
+      </map>
+    </li>
+    <li>
+      Custom navigation: You can use an image map to create a custom navigation menu with clickable regions corresponding to different sections of a webpage.
+      <pre><code>&lt;img src="<span style="color: #008000;">menu.png</span>" alt="<span style="color: #0000FF;">Navigation Menu</span>" usemap="#<span style="color: #800080;">menu</span>"&gt;</code></pre>
+      <pre><code>&lt;map name="<span style="color: #800080;">menu</span>"&gt;</code></pre>
+      <pre><code>  &lt;area shape="<span style="color: #008000;">rect</span>" coords="<span style="color: #008000;">0,0,100,50</span>" href="<span style="color: #008000;">home.html</span>" alt="<span style="color: #0000FF;">Home</span>"&gt;</code></pre>
+      <pre><code>  &lt;area shape="<span style="color: #008000;">rect</span>" coords="<span style="color: #008000;">100,0,200,50</span>" href="<span style="color: #008000;">about.html</span>" alt="<span style="color: #0000FF;">About</span>"&gt;</code></pre>
+      <pre><code>&lt;/map&gt;</code></pre>
+      <img src="menu.png" alt="Navigation Menu" usemap="#menu">
+      <map name="menu">
+        <area shape="rect" coords="0,0,100,50" href="home.html" alt="Home">
+        <area shape="rect" coords="100,0,200,50" href="about.html" alt="About">
+      </map>
+    </li>
+  </ul>
+
+  <h2>3. Color:</h2>
+  <ul>
+    <li>
+      Background color: You can set the background color of a webpage or a specific element using CSS.
+      <pre><code>&lt;style&gt;</code></pre>
+      <pre><code>  body {</code></pre>
+      <pre><code>    background-color: <span style="color: #800080;">#808080</span>;</code></pre>
+      <pre><code>  }</code></pre>
+      <pre><code>&lt;/style&gt;</code></pre>
+      <style>
+        body {
+          background-color: #808080;
+        }
+      </style>
+      <p>This is a paragraph with a background color set to <span style="color: #800080;">#808080</span>.</p>
+    </li>
+    <li>
+      Text color: You can change the color of text within an HTML element using CSS.
+      <pre><code>&lt;style&gt;</code></pre>
+      <pre><code>  h1 {</code></pre>
+      <pre><code>    color: <span style="color: #0000FF;">blue</span>;</code></pre>
+      <pre><code>  }</code></pre>
+      <pre><code>&lt;/style&gt;</code></pre>
+      <style>
+        h1 {
+          color: blue;
+        }
+      </style>
+      <h1>This is a heading with <span style="color: #0000FF;">blue</span> text color.</h1>
+    </li>
+    <li>
+      Color gradients: You can create smooth color transitions using CSS gradients, which can be applied to backgrounds, borders, or text.
+      <pre><code>&lt;style&gt;</code></pre>
+      <pre><code>  .gradient {</code></pre>
+      <pre><code>    background: linear-gradient(to right, <span style="color: #FF0000;">red</span>, <span style="color: #FFFF00;">yellow</span>);</code></pre>
+      <pre><code>  }</code></pre>
+      <pre><code>&lt;/style&gt;</code></pre>
+      <style>
+        .gradient {
+          background: linear-gradient(to right, red, yellow);
+        }
+      </style>
+      <div class="gradient">
+        <h2>Color Gradient Example</h2>
+      </div>
+    </li>
+  </ul>
+</body>
+</html>
+
