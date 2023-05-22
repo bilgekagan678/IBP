@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Canvas Application</title>
+  <style>
+    canvas {
+      border: 1px solid black;
+    }
+  </style>
+</head>
+<body>
+  <h2>Canvas Application</h2>
+
+  <canvas id="myCanvas" width="400" height="400"></canvas>
+
+  <script>
+    const canvas = document.getElementById("myCanvas");
+    const ctx = canvas.getContext("2d");
+
+    // Draw a red rectangle
+    ctx.fillStyle = "red";
+    ctx.fillRect(50, 50, 100, 100);
+
+    // Draw a blue circle
+    ctx.beginPath();
+    ctx.arc(200, 200, 50, 0, 2 * Math.PI);
+    ctx.fillStyle = "blue";
+    ctx.fill();
+    ctx.closePath();
+  </script>
+</body>
+</html>
